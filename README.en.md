@@ -10,7 +10,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/dosigner/ncfound?style=flat-square)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dosigner/ncfound?style=flat-square)
 
-Korean version: [README.md](./README.md)
+[Live site](https://dosigner.github.io/ncfound/) · [Korean version](./README.md)
 
 `Projectory` is not a showcase site. It is a web-based experiment space where children can make, draw, choose, and leave something behind.  
 In 2020, I cared less about flashy UI and more about designing an experience that invited participation.
@@ -20,7 +20,13 @@ So this project was designed around participation rather than explanation. Users
 
 For me, Projectory became the first large experiment that showed how design can shape participation rather than only presentation.
 
+> [!note]
+> This repository now behaves more like a **deployed archive** than a full source tree.
+> What remains is mostly static output such as `index.html`, `static/js`, `static/css`, `img`, and `music`.
+
 ## Why I Built This
+
+I wanted to test whether a children's web experience could be structured around participation rather than explanation.
 
 - I wanted to change the learning experience from passive reading to active participation.
 - I wanted to validate an interaction flow that works for children.
@@ -58,11 +64,18 @@ That mindset carried into later UX, interactive, AI, and systems work:
 
 ## Tech Stack
 
-- React
-- Create React App
-- CSS, image assets, audio assets, static banner content
-- Reactstrap / Bootstrap-based components
+- React-based single-page application
+- Create React App-style static build output
+- GitHub Pages subpath deployment at `/ncfound/`
+- Bootstrap / Reactstrap-style component traces in the bundle
+- Local image archives, banner assets, and audio files
 - Google Fonts: `Noto Sans KR`, `Nanum Pen Script`, `Poor Story`
+
+## What the Codebase Shows
+
+- The original source tree is no longer present here; the repository mostly preserves the deployed artifact.
+- `index.html` and the bundled CSS/JS indicate a React app built into a static distribution.
+- The `img` and `music` directories show how heavily the project relied on atmosphere, visual rhythm, and sensory participation.
 
 ## IA
 
@@ -91,4 +104,4 @@ Useful Obsidian companion: [`IA.canvas`](./IA.canvas)
 
 ---
 
-Built as a child-friendly experimental lab.
+Built as a child-friendly experimental lab for participation, not just presentation.
