@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "a1b2c3d4e5f67890",
+      "type": "text",
+      "x": 40,
+      "y": 40,
+      "width": 320,
+      "height": 180,
+      "text": "# 프로젝토리 / Projectory\n\n미래 세대를 위한 실험실. 아이들이 직접 만들고, 그리고, 고르고, 남기는 참여형 웹 경험."
+    },
+    {
+      "id": "b1c2d3e4f5a67890",
+      "type": "text",
+      "x": 430,
+      "y": 20,
+      "width": 260,
+      "height": 150,
+      "text": "핵심 경험\n- Making\n- Drawing\n- Video\n- Letter\n- Music\n- Etc"
+    },
+    {
+      "id": "c1d2e3f4a5b67890",
+      "type": "text",
+      "x": 430,
+      "y": 210,
+      "width": 260,
+      "height": 150,
+      "text": "비주얼 시스템\n- Banners\n- Illustrations\n- Fonts\n- Motion"
+    },
+    {
+      "id": "d1e2f3a4b5c67890",
+      "type": "text",
+      "x": 430,
+      "y": 400,
+      "width": 260,
+      "height": 150,
+      "text": "배포 결과물\n- index.html\n- static/js\n- static/css\n- img / music"
+    },
+    {
+      "id": "e1f2a3b4c5d67890",
+      "type": "text",
+      "x": 760,
+      "y": 120,
+      "width": 260,
+      "height": 180,
+      "text": "의도\n- 참여 유도\n- 즉시 반응\n- 아동 친화적 흐름\n- 실험실 같은 감각"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "fromNode": "a1b2c3d4e5f67890",
+      "fromSide": "right",
+      "toNode": "b1c2d3e4f5a67890",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "a1b2c3d4e5f67890",
+      "fromSide": "right",
+      "toNode": "c1d2e3f4a5b67890",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "a1b2c3d4e5f67890",
+      "fromSide": "right",
+      "toNode": "d1e2f3a4b5c67890",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "a1b2c3d4e5f67890",
+      "fromSide": "right",
+      "toNode": "e1f2a3b4c5d67890",
+      "toSide": "left"
+    }
+  ]
+}
